@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="./project2.css">
+    <script src="./todo.js" defer></script>
+</head>
+<body>
+    
+    <div id="container">
+        <header>ToDo List</header>
+        <main id="input">
+            <h4>오늘 할일을 작성해 보세요</h4>
+            <input type="text" id="todoInput" name="todo" placeholder="할일을 입력하세요">
+            <button id="btn" type="button" onclick="addTodo()">추가</button>
+        </main>
+        <div>
+            <ul id="addTodo" class="todoList">
+                <li><div id="result"></div></li>
+            </ul>
+        </div>
+    </div>
+   
+</body>
+</html>
